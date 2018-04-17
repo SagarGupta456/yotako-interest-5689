@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+        <android.support.constraint.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+            <android.support.constraint.Guideline
+android:id="@+id/MAID_PROFILE_text_0_guidelines_top92a90022-4c99-49c5-87ef-7615944107e3"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.4068" />
+            <android.support.constraint.Guideline
+android:id="@+id/MAID_PROFILE_text_0_guidelines_start92a90022-4c99-49c5-87ef-7615944107e3"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.4165" />
+            <android.support.constraint.Guideline
+android:id="@+id/MAID_PROFILE_text_0_guidelines_bottom92a90022-4c99-49c5-87ef-7615944107e3"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.60287" />
+            <android.support.constraint.Guideline
+android:id="@+id/MAID_PROFILE_text_0_guidelines_end92a90022-4c99-49c5-87ef-7615944107e3"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.58251" />
+            <TextView
+android:id="@+id/MAID_PROFILE_text_0"
+android:fontFamily="Balsamiq Sans"
+
+ android:text="Maid Profile" 
+android:textColor="#2cadd8"
+android:textSize="8.8dp"
+android:gravity="center_horizontal|center_vertical"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="0"
+app:layout_constraintStart_toStartOf="@+id/MAID_PROFILE_text_0_guidelines_start92a90022-4c99-49c5-87ef-7615944107e3"
+app:layout_constraintTop_toTopOf="@+id/MAID_PROFILE_text_0_guidelines_top92a90022-4c99-49c5-87ef-7615944107e3"
+app:layout_constraintEnd_toEndOf="@+id/MAID_PROFILE_text_0_guidelines_end92a90022-4c99-49c5-87ef-7615944107e3"
+app:layout_constraintBottom_toBottomOf="@+id/MAID_PROFILE_text_0_guidelines_bottom92a90022-4c99-49c5-87ef-7615944107e3" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>

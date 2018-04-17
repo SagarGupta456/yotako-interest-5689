@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+        <android.support.constraint.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+>
+            <android.support.constraint.Guideline
+android:id="@+id/Home_Page_3_text_0_guidelines_top74f27608-baed-4962-86df-29231ebaeba7"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.2" />
+            <android.support.constraint.Guideline
+android:id="@+id/Home_Page_3_text_0_guidelines_start74f27608-baed-4962-86df-29231ebaeba7"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.255" />
+            <android.support.constraint.Guideline
+android:id="@+id/Home_Page_3_text_0_guidelines_bottom74f27608-baed-4962-86df-29231ebaeba7"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="horizontal"
+app:layout_constraintGuide_percent="0.85" />
+            <android.support.constraint.Guideline
+android:id="@+id/Home_Page_3_text_0_guidelines_end74f27608-baed-4962-86df-29231ebaeba7"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+app:layout_constraintGuide_percent="0.76506" />
+            <TextView
+android:id="@+id/Home_Page_3_text_0"
+android:fontFamily="Balsamiq Sans"
+
+ android:text="About Us" 
+android:textColor="#ffffff"
+android:textSize="32.800000000000004dp"
+android:gravity="center_horizontal|center_vertical"
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:layout_weight="0"
+app:layout_constraintStart_toStartOf="@+id/Home_Page_3_text_0_guidelines_start74f27608-baed-4962-86df-29231ebaeba7"
+app:layout_constraintTop_toTopOf="@+id/Home_Page_3_text_0_guidelines_top74f27608-baed-4962-86df-29231ebaeba7"
+app:layout_constraintEnd_toEndOf="@+id/Home_Page_3_text_0_guidelines_end74f27608-baed-4962-86df-29231ebaeba7"
+app:layout_constraintBottom_toBottomOf="@+id/Home_Page_3_text_0_guidelines_bottom74f27608-baed-4962-86df-29231ebaeba7" />
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
